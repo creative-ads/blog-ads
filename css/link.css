@@ -1,0 +1,76 @@
+:root {
+    --primary: #2563eb;
+    --bg: #172554;
+    --shop: #dbeafe;
+    --cyan: #22d3ee;
+    --skybg : #bae6fd;
+  }
+
+  .list-loker {
+    margin: 20px; /* Jarak dari elemen lain */
+    text-align: center; /* Teks default di tengah */
+}
+
+.list-loker h3 {
+    font-size: 1.2em; /* Ukuran font judul */
+    margin-bottom: 10px; /* Jarak bawah judul */
+}
+
+.list-loker ul {
+    list-style-type: none; /* Menghilangkan bullet points */
+    padding: 0; /* Menghilangkan padding default */
+}
+
+.list-loker li {
+    margin: 5px 0; /* Jarak antara item daftar */
+}
+
+.list-loker a {
+    font-size: 1.4rem;
+    text-decoration: none; /* Menghilangkan garis bawah pada link */
+    color: var(--bg); /* Warna link */
+    font-weight: 500;
+    transition: color 0.3s; /* Transisi warna saat hover */
+}
+
+.list-loker a:hover {
+    color: var(--cyan); /* Warna saat hover */
+}
+
+/* Media Query untuk responsif */
+@media (max-width: 450px) {
+    .list-loker {
+        text-align: left; /* Teks rata kiri untuk layar kecil */
+    }
+}
+
+.list-loker1 {
+    margin: 20px; /* Jarak dari elemen lain */
+    text-align: left; /* Teks default di tengah */
+}
+
+.list-loker1 h3 {
+    font-size: 1.7em; /* Ukuran font judul */
+    margin-bottom: 10px; /* Jarak bawah judul */
+}
+
+.list-loker1 ul {
+    list-style-type: none; /* Menghilangkan bullet points */
+    padding: 0; /* Menghilangkan padding default */
+}
+
+.list-loker1 li {
+    margin: 5px 0; /* Jarak antara item daftar */
+    font-size: 1.5rem;
+    color: #172554;
+}
+
+/* Media Query untuk responsif */
+@media (max-width: 450px) {
+    .list-loker1 {
+        text-align: left; /* Teks rata kiri untuk layar kecil */
+    }
+    .list-loker1 li {
+        font-size: 1.4rem;
+    }
+}
